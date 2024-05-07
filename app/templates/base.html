@@ -9,6 +9,13 @@
     <body>
         <header>
             <h1>Ceneo.pl Web Scraper</h1>
+            <div class="buttons">
+                <button onclick="location.href='/extract'">Extract file</button>
+                <button onclick="location.href='/author'">Author file</button>
+                <button onclick="location.href='/product/<product_id>'">Product file</button>
+                <button onclick="location.href='/products'">Products file</button>
+                <button onclick="location.href='/index'">Index file</button>
+            </div>
         </header>
         <section>
             {% block content%}
