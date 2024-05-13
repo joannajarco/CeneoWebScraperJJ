@@ -1,11 +1,5 @@
 {% extends "base.html" %}
 {% block content%}
-        {% if error is defined %}
-        <div class="alert alert-danger alert-dismissible fade show mt-3" role="alert">
-                <strong>Error!</strong>{{error}}
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        </div>
-        {% endif %}
         <form class="container mt-3" method="POST" action="{{url_for('extract')}}">
             <div class="row g-3 align-items-center">
                 <div class="col-auto">
@@ -24,4 +18,10 @@
                 <button type="submit" class="btn btn-outline-dark">extract</button>
             </div>
         </form>
+        {% if error is defined %}
+        <div class="alert alert-danger alert-dismissible fade show mt-3" role="alert">
+                <strong>Error!</strong>{{error}}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        {% endif %}
 {% endblock %}
