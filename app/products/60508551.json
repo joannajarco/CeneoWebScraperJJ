@@ -1,0 +1,26 @@
+{
+    "product_id": "60508551",
+    "product_name": "Gardena Siewnik uniwersalny XL (436-20)",
+    "opinions_count": 14,
+    "pros_count": 7,
+    "cons_count": 1,
+    "average_score": 4.392857142857143,
+    "score_distribution": {
+        "0.0": NaN,
+        "0.5": 1.0,
+        "1.0": NaN,
+        "1.5": 1.0,
+        "2.0": NaN,
+        "2.5": NaN,
+        "3.0": NaN,
+        "3.5": NaN,
+        "4.0": NaN,
+        "4.5": 1.0,
+        "5.0": 11.0
+    },
+    "recommendation_distribution": {
+        "true": 11,
+        "false": 2,
+        "NaN": 1
+    }
+}
