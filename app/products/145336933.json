@@ -1,0 +1,26 @@
+{
+    "product_id": "145336933",
+    "product_name": "Krem Cerave nawilżający Spf50 skóra normalna i sucha na dzień 52ml",
+    "opinions_count": 29,
+    "pros_count": 12,
+    "cons_count": 1,
+    "average_score": 4.793103448275862,
+    "score_distribution": {
+        "0.0": NaN,
+        "0.5": NaN,
+        "1.0": NaN,
+        "1.5": NaN,
+        "2.0": 1.0,
+        "2.5": NaN,
+        "3.0": NaN,
+        "3.5": NaN,
+        "4.0": 1.0,
+        "4.5": 4.0,
+        "5.0": 23.0
+    },
+    "recommendation_distribution": {
+        "true": 28,
+        "false": 1,
+        "NaN": 0
+    }
+}

@@ -93,6 +93,32 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
+.card{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 18px;
+}
+.table{
+    text-align: center;
+    margin-top: 25px;
+    width: 100%;
+    background-color: #b3989d;
+}
+th,td{
+    border: 1px solid;
+    color: #000000;
+}
 
-
+.button1{
+    background-color: rgb(99, 33, 50);
+    color: #ffffff;
+    padding: 10px 20px; 
+    border: none;
+    cursor: pointer;
+    border-radius: 8px; 
+    font-size: 12px; 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease; 
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.1));
+}
 
