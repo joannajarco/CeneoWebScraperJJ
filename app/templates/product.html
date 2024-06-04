@@ -1,4 +1,18 @@
 {% extends "base.html" %}
 {% block content%}
-    <p>This is product file</p>
+    <p>This is {{product_id}} file</p>
+    <div>
+        <button class="button1" onclick="location.href='{{url_for('download_json', product_id=product_id)}}'">JSON</button>
+        <button class="button1" onclick="location.href='{{url_for('download_csv', product_id=product_id)}}'">CSV</button>
+        <button class="button1" onclick="location.href='{{url_for('download_xlsx', product_id=product_id)}}'">XLSX</button>
+    </div>
+    <a type="button" class="btn btn-outline-dark" href="{{url_for('charts', product_id=product_id)}}">Charts</a>
+    {{opinions|safe}}
+{% endblock %}
+{% block scripts %}
+    <script>
+    let table = new DataTable('#opinions' , {
+    responsive: true
+});
+    </script>
 {% endblock %}
